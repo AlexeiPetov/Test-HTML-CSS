@@ -1,6 +1,15 @@
 * {
     margin: 0;
   }
+  a,
+  a.text:active, 
+  a.text:hover,  
+  a.text,
+  a:visited {
+      text-decoration: none;
+      outline: none;
+      color: white;
+  }
 html {
     background-image: url(IMG/background.jpg);
     background-repeat: no-repeat;
@@ -24,7 +33,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: auto;
-    height: 20%;
 }
 header img {
     width: 6vw;
@@ -58,6 +66,18 @@ padding-top: 10vh;
     font-size: 4vw;
     font-weight: 900;
 }
+.buy {
+    padding-top: 1vw;
+    display: flex;
+}
+.buy img {
+    width: 2vw;
+    padding-left: 1vw;
+}
+.buy p {
+    font-size: 2vw;
+    font-weight: 700;
+}
 .right_main {
     width: 25vw;
     text-align: right;
@@ -68,6 +88,22 @@ padding-top: 10vh;
 }
 .right_main .part_two {
     font-size: 1.5vw;
-    font-weight: 300;
+    font-weight: 400;
     padding-top: 2vh;
+}
+
+
+
+
+footer {
+    padding-top: 18vh;
+    display: flex;
+    justify-content: space-between;
+}
+.contact img{
+width: 2vw;
+padding-right: 1vw;
+}
+footer a {
+    font-size: 1vw;
 }
